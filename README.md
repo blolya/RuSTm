@@ -1,2 +1,2 @@
 # RuSTm
-Rust peripherals library
+Rust stm32 minimum project setup
