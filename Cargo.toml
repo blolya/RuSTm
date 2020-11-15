@@ -8,4 +8,14 @@ edition = "2018"
 
 [dependencies]
 cortex-m-rt = "0.6.12"
-panic-halt = "0.2.0"
+panic-reset = "0.1.0"
+
+[[bin]]
+bench = false
+name = "RuSTm"
+test = false
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
