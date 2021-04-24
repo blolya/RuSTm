@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 cortex-m-rt = "0.6.12"
 panic-reset = "0.1.0"
+peris = {path = "./crates/peris"}
 
 [[bin]]
 bench = false
